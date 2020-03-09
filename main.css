@@ -22,7 +22,10 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .nav-item a {
@@ -37,8 +40,8 @@ body {
 main {
     background-color: #EDEDED;
 
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .main-body-contain {
