@@ -4,9 +4,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* div {
-    border: 1px solid black;
-} */
 
 /* NAVBAR STYLING*/
 
@@ -54,18 +51,15 @@ h1 {
     font-size: 1.5rem;
     font-weight: 600;
 
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
+
 
 /* STYLING FOR PORTFOLIO ELEMENTS */
 
-.portfolio div {
-    padding: 0;
-}
-
 .portfolio img {
-    position: relative;
-    width: 100%;
+
 }
 
 .portfolio h2 {
@@ -73,14 +67,12 @@ h1 {
     color: #ffffff;
     font-size: 1.2rem;
     text-align: center;
-    
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
+
 }
 
 
 /* FOOTER STYLING */
+
 .footer-decoration {
     background-color: #5AA7A3;
     height: 5px;
