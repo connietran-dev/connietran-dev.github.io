@@ -4,33 +4,60 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* NAVBAR */
+
+/* NAVBAR STYLING*/
 
 .navbar {
     background-color: #ffffff;
+
+    padding: 0;
 }
 
 .navbar-brand {
     background-color: #5AA7A3;
     color: #ffffff;
+    font-size: 1.5rem;
+    
+    padding: 20px;
 }
 
 .nav-item a {
     font-family: Arial, Helvetica, sans-serif;
     color: darkgrey;
+    font-size: 0.9rem;
 }
 
 
-/* MAIN BODY */
+/* MAIN BODY STYLING */
 
 main {
     background-color: #EDEDED;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.mainBodyContainer {
+.main-body-contain {
     background-color: #ffffff;
+    border: 1px solid black;
+
 }
 
 h1 {
     color:	#5AA7A3;
+    font-size: 1.5rem;
+}
+
+
+/* FOOTER STYLING */
+.footer-decoration {
+    background-color: #5AA7A3;
+    height: 5px;
+}
+
+.footer-main {
+    background-color: #666666;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
 }
