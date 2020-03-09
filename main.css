@@ -1,4 +1,36 @@
+/* GLOBAL STYLES */
 
-div {
-    border: 1px solid black;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    background-color: #5AA7A3;
+    color: #ffffff;
+}
+
+.nav-item a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+
+
+/* MAIN BODY */
+
+main {
+    background-color: #EDEDED;
+}
+
+.mainBodyContainer {
+    background-color: #ffffff;
+}
+
+h1 {
+    color:	#5AA7A3;
 }
