@@ -1,0 +1,16 @@
+
+/* CUSTOM STYLING FOR THE MAIN BODIES OF THE SITE  */
+
+main {
+    background-image: url("/images/background-palms.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.main-body-contain {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
