@@ -4,6 +4,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* div {
+    border: 1px solid black;
+} */
 
 /* NAVBAR STYLING*/
 
@@ -17,6 +20,7 @@ body {
     background-color: #5AA7A3;
     color: #ffffff;
     font-size: 1.5rem;
+    font-weight: 600;
     
     padding: 20px;
 }
@@ -33,19 +37,21 @@ body {
 main {
     background-color: #EDEDED;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .main-body-contain {
     background-color: #ffffff;
-    border: 1px solid black;
-
+    border: 1px solid lightgray;
 }
 
 h1 {
     color:	#5AA7A3;
     font-size: 1.5rem;
+    font-weight: 600;
+
+    padding-top: 20px;
 }
 
 
