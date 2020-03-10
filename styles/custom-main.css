@@ -2,7 +2,7 @@
 /* CUSTOM STYLING FOR THE MAIN BODIES OF THE SITE  */
 
 main {
-    background-image: url("/images/background-palms.jpg");
+    background-image: url("https://connietran-dev.github.io/homework-week2/images/background-palms.jpg");
     background-position: center;
     background-size: cover;
     background-color: rgba(143, 71, 71, 0.459);
