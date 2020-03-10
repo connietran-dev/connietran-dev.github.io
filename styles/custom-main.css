@@ -1,6 +1,10 @@
 
 /* CUSTOM STYLING FOR THE MAIN BODIES OF THE SITE  */
 
+body {
+    font-family: 'Open Sans';
+}
+
 main {
     background-image: url("https://connietran-dev.github.io/homework-week2/images/background-palms.jpg");
     background-position: center;
@@ -14,8 +18,15 @@ main {
     background-color: rgba(24, 24, 24, 0.65);
     color: whitesmoke;
     
-    padding: 3rem;
+    padding: 2.5rem;
     min-height: 800px;
+
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    font-size: 1.6rem;
 }
 
 hr {
@@ -25,12 +36,17 @@ hr {
 
 p {
     font-size: 1.25rem;
-    line-height: 1.5;
+    line-height: 1.6;
+    
+    margin-bottom: 1.5rem;
 }
 
 .about-me img {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     margin-right: 2rem;
+}
 
+footer {
+    height: 3rem;
 }

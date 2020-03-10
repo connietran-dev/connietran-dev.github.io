@@ -1,2 +1,23 @@
 
 /* NAVBAR STYLING*/
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.navbar {
+    height: 5rem;
+}
+
+.navbar a {
+    color: rgb(46, 53, 60);
+}
+
+.navbar a:hover {
+    color: #128b35;
+}
+
+.navbar li {
+    font-size: 1.1rem;
+}
