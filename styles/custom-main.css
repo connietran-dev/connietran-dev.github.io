@@ -5,15 +5,17 @@ main {
     background-image: url("https://connietran-dev.github.io/homework-week2/images/background-palms.jpg");
     background-position: center;
     background-size: cover;
-    background-color: rgba(143, 71, 71, 0.459);
+    background-color: rgb(171, 169, 169);
+    background-blend-mode: overlay;
 
 }
 
 .main-body-contain {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(24, 24, 24, 0.65);
     color: whitesmoke;
     
     padding: 3rem;
+    min-height: 800px;
 }
 
 hr {
