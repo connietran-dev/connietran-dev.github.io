@@ -1,13 +1,13 @@
 
 /* CUSTOM STYLING FOR THE MAIN BODIES OF THE SITE  */
 
+
 main {
     background-image: url("https://connietran-dev.github.io/homework-week2/images/background-palms.jpg");
     background-position: center;
     background-size: cover;
     background-color: rgb(171, 169, 169);
     background-blend-mode: overlay;
-
 }
 
 .main-body-contain {
@@ -88,5 +88,15 @@ hr {
 /* FOOTER STYLING */
 
 footer {
-    height: 3rem;
+    height: 4rem;
 }
+
+footer i {
+    margin: 30px 30px;
+    color: rgb(46, 53, 60);
+}
+
+footer i:hover {
+    color: green; 
+}
+
