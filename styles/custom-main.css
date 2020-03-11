@@ -1,9 +1,6 @@
 
 /* CUSTOM STYLING FOR THE MAIN BODIES OF THE SITE  */
 
-body {
-}
-
 main {
     background-image: url("https://connietran-dev.github.io/homework-week2/images/background-palms.jpg");
     background-position: center;
@@ -18,8 +15,8 @@ main {
     
     padding-top: 1.75rem;
     padding-bottom: 2rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;    
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;    
 
     min-height: 800px;
 
@@ -30,7 +27,7 @@ main {
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 30px;
     color: whitesmoke;
 }
 
@@ -54,10 +51,20 @@ hr {
     font-weight: 600;
 }
 
-
 .portfolio .card {
     margin-bottom: 20px;
+
+    /* min-height: 300px; */
 }
+
+.portfolio .card:hover {
+    opacity: 0.8;
+}
+
+.portfolio p {
+    font-size: 12px;
+}
+
 
 
 

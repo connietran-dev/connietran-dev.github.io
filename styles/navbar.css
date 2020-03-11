@@ -1,7 +1,15 @@
 
 /* NAVBAR STYLING*/
 
+.navbar {
+    font-family: 'Raleway';
+}
+
 .navbar-brand {
     font-weight: 600;
     font-size: 1.75rem;
+}
+
+.navbar a {
+    color: red;
 }
