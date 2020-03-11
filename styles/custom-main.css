@@ -2,7 +2,6 @@
 /* CUSTOM STYLING FOR THE MAIN BODIES OF THE SITE  */
 
 body {
-    font-family: 'Open Sans';
 }
 
 main {
@@ -17,11 +16,17 @@ main {
 .main-body-contain {
     background-color: rgba(24, 24, 24, 0.65);
     
-    padding: 2.5rem;
+    padding-top: 1.75rem;
+    padding-bottom: 2rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;    
+
     min-height: 800px;
 
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 h1 {
@@ -48,6 +53,12 @@ hr {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+
+.portfolio .card {
+    margin-bottom: 20px;
+}
+
 
 
 /* ABOUT ME STYLING */
