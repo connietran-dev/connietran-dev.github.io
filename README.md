@@ -4,10 +4,21 @@
 
 This is a responsive portfolio built using Twitter Bootstrap. 
 
-We were give comps in which I tried to follow in good faith as an exercise in meeting client requests, learning the Bootstrap grid, and creating multi-page sites. I did, however, put my on twist on style.
+We were given comps that I followed in large degree as an exercise in:
 
-Ultimately, I hope to rewrite this website completely. Along the way, I've learned that powerful imagery can make a difference. Bootstrap also makes for a great foundation on which you can apply your own style.
+* Learning the Bootstrap grid.
+* Creating multi-page sites. 
+* Keeping my code as clean and simple as possible by coding in a mobile-first approach. 
+* Meeting client requests.
 
-I look forward to learning more in my journey of being a front-end developer and continuing to play with the front-end.
+In fact, you can view how I coded for the original styling by uncommenting the CSS file `"default-hw.css"` or you can check out the file on GitHub here.
 
-The live page can be viewed here with thanks to GitHub Pages: https://connietran-dev.github.io/homework-week2/
+There are other things that I considered, including use of columns on desktop, making sure to test on multiple breakpoints, using an HTML validator, using semantic HTML, and using Git for source control.
+
+I did put my on twist on style by playing with the CSS. 
+
+Ultimately, I hope to rewrite this website completely and play around with the front-end. Along the way, I've learned that powerful imagery can make a difference. Bootstrap also makes for a great foundation on which you can apply your own style.
+
+I look forward to continuing to play with the front-end.
+
+The live page can be viewed here - with thanks to GitHub Pages: https://connietran-dev.github.io/homework-week2/
