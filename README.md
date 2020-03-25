@@ -21,4 +21,4 @@ Ultimately, I hope to rewrite this website completely and play around with the f
 
 I look forward to continuing to play with the front-end.
 
-The live page can be viewed here - with thanks to GitHub Pages: https://connietran-dev.github.io/homework-week2/
+The live page can be viewed here - with thanks to GitHub Pages: https://connietran-dev.github.io/portfolio/
