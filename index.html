@@ -24,178 +24,248 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,600&display=swap" rel="stylesheet">
 
 
-    <!-- STYLESHEET FOR DEFAULT STYLING FROM HOMEWORK -->
-
-    <!-- default-hw.css is a stylesheet that I started that has styling to match the comps that were included as part of our homework.  
-    
-    If you'd like to see it, you can uncomment this stylesheet and comment the the custom stylesheets out. -->
-    
-
-    <!-- <link rel="stylesheet" href="styles/default-hw.css"> -->
-    
-
-    <!-- MY CUSTOM STYLESHEETS -->
+    <!-- CUSTOM STYLESHEETS -->
 
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/custom-main.css">
-
-
 
 
 </head>
 
 <body>
 
-<!-- NAVIGATION -->
+    <!-- NAVIGATION -->
 
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-    <a href="index.html" class="navbar-brand">Connie Tran</a>
+        <a href="index.html" class="navbar-brand">Connie Tran</a>
 
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a href="index.html" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-        </ul>
-    </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-</nav>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
 
 
-<!-- MAIN BODY CONTENT -->
+    <!-- MAIN BODY CONTENT -->
 
-<main>
+    <main>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9 main-body-contain justfiy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 main-body-contain justfiy">
 
-                <h1>Portfolio</h1>
+                    <h1>Portfolio</h1>
 
-                <hr>
-                
-                <div class="container portfolio">
-                    <div class="row">
-                        <div class="col-md-6">
-                        <a href="https://github.com/connietran-dev/homework-week1" target="_blank">
-                            <div class="card">
-                                <img class="card-img-top" src="images/digital-marketing-meeting.jpg" alt="Card image for Semantic HTML project: Team meets in conference room">
-                                <div class="card-body">
-                                    <h2>Semantic HTML</h2>
-                                <p class="card-text">For one of our first assignments, we were tasked with utilizing semantic HTML and optimizing for SEO and ADA accessibility.</p>
+                    <hr>
+
+                    <div class="container portfolio">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <a href="https://connietran-dev.github.io/weather-dashboard/" target="_blank">
+                                        <img class="card-img-top" src="images/weather-dashboard.png"
+                                            alt="Weather Dashboard project">
+                                    </a>
+                                    <div class="card-body">
+                                        <h2>Weather Dashboard</h2>
+                                        <p class="card-text">This weather dashboard uses Javascript to dynamically
+                                            update weather data from OpenWeather, a third-party server-side API. Check
+                                            out weather from across the world and save your searches in local storage.
+                                        </p>
+                                        <a href="https://github.com/connietran-dev/weather-dashboard" target="_blank">
+                                            <i class="fa fa-github-alt fa-sm" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://connietran-dev.github.io/weather-dashboard/" target="_blank">
+                                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="https://codepen.io/connietran-dev/full/WNvXpPo" target="_blank">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/codepen-site.png" alt="Card image for HTML site: Codepen site">
-                                    <div class="card-body">
-                                        <h2>Landing Page</h2>
-                                    <p class="card-text">This landing page is a quick little HTML site I put together with responsive elements.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="https://github.com/connietran-dev/prework-about-me" target="_blank">
-                                <div class="card">
-                                    <img class="card-img-top" src="https://github.com/connietran-dev/prework-about-me/blob/master/img/code.jpg?raw=true" alt="Card image for Github Fork site">
-                                    <div class="card-body">
-                                        <h2>GitHub Fork</h2>
-                                    <p class="card-text">This static HTML and CSS site is a repo that I forked and cloned on GitHub.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="https://github.com/connietran-dev/practice-site" target="_blank">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/practice-site.png" alt="Card image for practice site">
-                                    <div class="card-body">
-                                        <h2>HTML Site</h2>
-                                    <p class="card-text">Here's a little site I spun up with some practice using Emmet and styling HTML tables.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="https://www.spanx.com/leggings" target="_blank">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/spanx.png" alt="Card image of Spanx website">
-                                    <div class="card-body">
-                                        <h2>Spanx</h2>
-                                    <p class="card-text">On occasion, I am also a production assistant for film and creative endeavors. Here's a photoshoot I helped PA for Spanx's Fall/Winter Legging collection.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
 
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <a href="https://connietran-dev.github.io/day-planner/" target="_blank">
+                                        <img class="card-img-top" src="images/day-planner.png"
+                                            alt="Day Planner project">
+                                    </a>
+                                    <div class="card-body">
+                                        <h2>Day Planner</h2>
+                                        <p class="card-text">This calendar application uses Moment.js and Javascript to help
+                                            save events in local storage for each hour of your work day.</p>
+                                        <a href="https://github.com/connietran-dev/day-planner" target="_blank">
+                                            <i class="fa fa-github-alt fa-sm" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://connietran-dev.github.io/day-planner/" target="_blank">
+                                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <a href="https://codepen.io/connietran-dev" target="_blank">
+                                        <img class="card-img-top" src="images/codepen.png" alt="Connie CodePen sample with words 'Ultra'">
+                                    </a>
+                                    <div class="card-body">
+                                        <h2>CodePen</h2>
+                                        <p class="card-text">I also play around with front-end code on occassion and
+                                            enjoy making things look pretty on CodePen.</p>
+                                        <a href="https://codepen.io/connietran-dev" target="_blank">
+                                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <a href="https://kseredick95.github.io/Code-wizards/" target="_blank">
+                                        <img class="card-img-top" src="images/client-clock.png"
+                                            alt="Client Clock project">
+                                    </a>
+                                    <div class="card-body">
+                                        <h2>Client Clock</h2>
+                                        <p class="card-text">Client Clock tracks time spent on specific clients to
+                                            create a billing page with hourly cost. This project utilized Git to
+                                            collaborate with several developers and also utilizes Javascript to update
+                                            stock information from Alpha Vantage, a third-party API.</p>
+                                        <a href="https://github.com/Kseredick95/Code-wizards" target="_blank">
+                                            <i class="fa fa-github-alt fa-sm" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://kseredick95.github.io/Code-wizards/" target="_blank">
+                                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <a href="https://connietran-dev.github.io/memory-game/" target="_blank">
+                                        <img class="card-img-top" src="images/memory-game.png" alt="Kawaii memory game">
+                                    </a>
+                                    <div class="card-body">
+                                        <h2>Kawaii Memory Game</h2>
+                                        <p class="card-text">Indulge your sweet tooth with this is memory game built with native Javascript functions.</p>
+                                            <a href="https://github.com/connietran-dev/memory-game" target="_blank">
+                                                <i class="fa fa-github-alt fa-sm" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="https://connietran-dev.github.io/memory-game/" target="_blank">
+                                                <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <a href="https://connietran-dev.github.io/homework-week1/" target="_blank">
+                                        <img class="card-img-top" src="images/digital-marketing-meeting.jpg"
+                                            alt="Card image for Semantic HTML project: Team meets in conference room">
+                                    </a>
+                                    <div class="card-body">
+                                        <h2>Semantic HTML</h2>
+                                        <p class="card-text">This site was refactored to utilize semantic HTML and
+                                            optimized for SEO & ADA web accessibility.</p>
+                                        <a href="https://github.com/connietran-dev/homework-week1" target="_blank">
+                                            <i class="fa fa-github-alt fa-sm" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://github.com/connietran-dev/homework-week1" target="_blank">
+                                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <a href="https://www.spanx.com/leggings" target="_blank">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/spanx.png"
+                                            alt="Card image of Spanx website">
+                                </a>
+                                        <div class="card-body">
+                                            <h2>Spanx</h2>
+                                            <p class="card-text">On occasion, I am also a production assistant for film
+                                                and creative endeavors. Here's a photoshoot I helped PA for Spanx's
+                                                Fall/Winter Legging collection.</p>
+                                            <a href="https://connietran-dev.github.io/weather-dashboard/" target="_blank">
+                                                <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                            </div>
+
+                        </div>
                     </div>
+
                 </div>
-                
+                <div class="col-md-3">
+                </div>
             </div>
-            <div class="col-md-3">
+        </div>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer-decoration">
+            </div>
+            <div class="row footer-main justify-content-center">
+                <a href="https://www.linkedin.com/in/connietran1/" target="_blank">
+                    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/connietran-dev" target="_blank">
+                    <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+                </a>
+                </a>
+                <a href="https://codepen.io/connietran-dev/pens/showcase" target="_blank">
+                    <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+                </a>
+
             </div>
         </div>
-    </div>
+
+    </footer>
 
 
-</main>
+    <!-- BOOTSTRAP JAVASCRIPT -->
 
-
-<!-- FOOTER -->
-
-<footer>
-    <div class="container-fluid">
-        <div class="row footer-decoration">
-        </div>
-        <div class="row footer-main justify-content-center">
-            <a href="https://www.linkedin.com/in/connietran1/" target="_blank">
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-            </a>
-            <a href="https://github.com/connietran-dev" target="_blank">
-                <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
-            </a>
-            </a>
-            <a href="https://codepen.io/connietran-dev/pens/showcase" target="_blank">
-                <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
-            </a>
-
-        </div>
-    </div>
-
-</footer>
-
-
-<!-- BOOTSTRAP JAVASCRIPT -->
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </body>
 

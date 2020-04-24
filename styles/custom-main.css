@@ -1,5 +1,10 @@
 
-/* CUSTOM STYLING FOR THE MAIN BODIES OF THE SITE  */
+/* CUSTOM STYLING FOR THE MAIN BODY OF THE SITE  */
+
+::selection { 
+    background: green; 
+    color: white;
+}
 
 body {
     font-family: 'Raleway';
@@ -82,14 +87,27 @@ footer i:hover {
     /* min-height: 300px; */
 }
 
-.portfolio .card:hover {
+.portfolio img:hover {
     opacity: 0.8;
 }
 
 .portfolio p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
+.portfolio .fa:hover {
+    color: green; 
+}
+
+.portfolio .fa-github-alt {
+    /* Add padding to make larger click target */
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.portfolio .fa-window-maximize {
+    padding: 5px;
+}
 
 
 /* ABOUT ME STYLING */
