@@ -120,6 +120,15 @@ footer i:hover {
     margin-bottom: 1.5rem;
 }
 
+.about-me a {
+    color: white;
+    text-decoration: underline;
+}
+
+.about-me a:hover {
+    color: green;
+}
+
 .about-me img {
     margin-top: 1.25rem;
     margin-left: 1.25rem;
@@ -128,6 +137,7 @@ footer i:hover {
 
     display: block;
 }
+
 
 
 /* CONTACT FORM STYLING */
