@@ -97,6 +97,10 @@ footer i:hover {
     font-size: 14px;
 }
 
+.portfolio .underlined {
+    text-decoration: underline;
+}
+
 .portfolio .fa:hover {
     color: green; 
 }
