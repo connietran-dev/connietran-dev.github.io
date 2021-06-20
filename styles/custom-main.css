@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background-image: url("https://connietran-dev.github.io/portfolio/images/background-palms.jpg");
+    background-image: url("../images/background-palms.jpg");
     background-position: center;
     background-size: cover;
     background-color: rgb(171, 169, 169);
@@ -78,6 +78,10 @@ footer i:hover {
     text-decoration: none;
 }
 
+.repo-link {
+    color: red;
+}
+
 .portfolio h2 {
     font-size: 1.25rem;
     font-weight: 600;
@@ -87,6 +91,12 @@ footer i:hover {
     margin-bottom: 20px;
 
     /* min-height: 300px; */
+}
+
+.card-img-large {
+    max-height: 300px;
+    max-width: 60%;
+    margin: 0 20%;
 }
 
 .portfolio img:hover {
@@ -135,6 +145,7 @@ footer i:hover {
 
 .about-me a:hover {
     color: green;
+    text-decoration: none;
 }
 
 .about-me img {
