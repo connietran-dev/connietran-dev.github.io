@@ -115,9 +115,10 @@ footer i:hover {
     color: green; 
 }
 
-.portfolio .fa-github-alt {
+.portfolio .fab, 
+.portfolio .far {
     /* Add padding to make larger click target */
-    padding: 5px;
+    padding: 8px;
     margin-right: 20px;
 }
 
